@@ -2,6 +2,12 @@
 
 Example use:
 ```js
+// === AUTHORHEADER ===
+// -- authorheader.js --
+// @SpcFORK
+// @SpectCOW
+// === ===
+
 (async () => {
 
   let ah = await AuthorHeader({
@@ -11,6 +17,18 @@ Example use:
   console.log(ah);
   console.log(await ah.compile());
 })();
+
+/*
+{
+  "path": [
+    "authorheader.js"
+  ],
+  "atData": [
+    "SpcFORK",
+    "SpectCOW"
+  ]
+}
+*/
 ```
 
 ---
