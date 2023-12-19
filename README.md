@@ -46,7 +46,7 @@ Example use:
 */
 ```
 
-You can also use the `path` property secction with an importer (wink, wink, nudge, nudge; coming soon)!!
+You can also use the `path` property secction with an importer!! `(wink, wink, nudge, nudge; coming soon!!)`
 
 ---
 
