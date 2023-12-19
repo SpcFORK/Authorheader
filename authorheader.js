@@ -292,6 +292,7 @@ async function AuthorHeader(prefs, cb) {
   return _returns_;
 }
 
+/*
 (async () => {
   let ah = await AuthorHeader({
     location: './.spctools/authorheader.js'
@@ -300,3 +301,4 @@ async function AuthorHeader(prefs, cb) {
   console.log(await ah.compile());
 
 })();
+*/
