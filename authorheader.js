@@ -292,6 +292,16 @@ async function AuthorHeader(prefs, cb) {
   return _returns_;
 }
 
+
+(globalThis?.window && window?.Worker) && (
+  window.AuthorHeader = AuthorHeader
+)
+  ||
+(globalThis?.__dirname && globalThis?.__filename) && (
+  module.exports = {AuthorHeader}
+)
+
+
 /*
 (async () => {
   let ah = await AuthorHeader({
@@ -302,3 +312,4 @@ async function AuthorHeader(prefs, cb) {
 
 })();
 */
+
